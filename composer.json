@@ -1,0 +1,25 @@
+{
+    "name": "egorlost/yii2-bing-translator",
+    "description": "The translator extension for the Yii framework",
+    "keywords": [
+        "yii2",
+        "translator",
+        "bing"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Egor Grechkin",
+            "email": "egorgrechkin@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "egorlost\\translator\\": "src"
+        }
+    }
+}
